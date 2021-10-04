@@ -1,0 +1,26 @@
+@import "vars";
+
+.footer {
+margin: 0;
+margin-top: 86px;
+padding-top: 65px;
+min-height: 157px;
+
+background: url("https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1473&q=80");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+    &__text {
+    
+    font-family: $secondary-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+}
+

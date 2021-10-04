@@ -1,0 +1,57 @@
+@import 'vars';
+
+.banner {
+    min-height: 544px;
+    padding-top: 140px;
+    padding-bottom: 89px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background: url("https://images.unsplash.com/photo-1522307837370-cc113a36b784?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__title {
+        margin: 0 0 45px;
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.5em;
+    }
+    
+    &__info {
+        margin: 0 0 45px;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    &__info-secondary {
+        margin: 0 0 45px;
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    &__btn {
+    width: 213px;
+    height: 60px;
+    padding: 19px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: $main-font;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #fff;
+
+    }
+}

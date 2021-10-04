@@ -1,0 +1,66 @@
+@import "vars";
+
+.blog {
+    &__item-img {
+    width: 540px;
+    height: 344px;
+    background: url("https://images.unsplash.com/photo-1493655430214-3dd7718460bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    &__item-title {
+    padding: 20px 0 15px 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: $accent;
+
+}
+
+&__item-link {
+    padding-top: 15px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: $dark;
+    text-decoration: none;
+}
+   &__item-line {
+    padding: 14px 0 15px 0;
+    width: 540px;
+    border-bottom: 2px solid #ECF0F1;
+   }
+
+
+    &__item-text { 
+    padding: 15px 0 20px;   
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #9A9A9A;
+    }
+
+    &__btn {
+    width: 144px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $dark;
+    }
+}
